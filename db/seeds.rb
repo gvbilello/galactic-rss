@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+#IGN ALL FEED
+ign = Feed.new(name: "IGN All Feed", 
+							 url: "http://feeds.ign.com/ign/all",
+							 description: "The entirety of IGN content in one RSS feed.")
+ign.save
