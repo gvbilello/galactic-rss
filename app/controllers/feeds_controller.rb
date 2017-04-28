@@ -10,6 +10,7 @@ class FeedsController < ApplicationController
   # GET /feeds/1
   # GET /feeds/1.json
   def show
+  	entries_path
   end
 
   # GET /feeds/new
