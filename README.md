@@ -1,24 +1,8 @@
-# README
+# Galactic-RSS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An RSS feed reader built in Rails 5 with Feedjira and Twitter-Bootstrap.
 
-Things you may want to cover:
+The feed reader allows for feeds to be added, edited, and removed in-browser.  Feed entries can be viewed by clicking on the appropriate feed.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Known Issues:
+Feed entries lacking certain information (i.e. content, published date, etc.) can result in the web app crashing as of right now.
